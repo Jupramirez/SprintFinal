@@ -68,7 +68,7 @@
       </table>
     </div>
     <div class="footerZona">
-        <h2>{{hotel_in}}</h2>
+        <h2>MISION TIC 2020</h2>
         
   </div>
   </div>
@@ -133,6 +133,15 @@ export default {
   position: absolute;
   margin-top: 6%;
   margin-left: 27%;
+}
+th, td {
+   width: 40%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid rgb(182, 6, 6);
+   border-collapse: collapse;
+   padding: 0.3em;
+   caption-side: bottom;
 }
 
 .formulario {
